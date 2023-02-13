@@ -1,0 +1,216 @@
+.footer_distributed{
+	background-color: #f5f5f5;
+	box-shadow: 0 1px 1px 0 rgba(252, 249, 249, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+
+	padding: 50px 60px 40px;
+	margin-top: 80px;
+	overflow: hidden;
+}
+
+
+.logo {
+  width: 350px;
+}
+
+/* Footer left */
+
+.footer_distributed .footer_left{
+	float: left;
+}
+
+
+
+.footer_distributed h3{
+	color:  black;
+font-size: 36px;
+	margin: 0 0 10px;
+}
+
+.footer_distributed h3 span{
+ color: black;
+}
+
+/* Footer links */
+
+.footer_distributed .footer_links{
+	color:  black;
+	margin: 0 0 10px;
+	padding: 10px;
+
+  justify-content: space-between;
+}
+
+.footer_distributed .footer_links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+.footer_distributed .footer_links a:hover{
+text-decoration: underline;
+color:black;
+}
+
+.footer_distributed .footer_company_name{
+	color:  black;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+  cursor: pointer;
+}
+
+/* Footer social icons */
+
+.footer_distributed .footer_icons{
+	margin-top: 40px;
+}
+
+.footer_distributed .footer_icons a:hover{
+  background-color: blueviolet;
+}
+
+.footer_distributed .footer_icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #C0C0C0;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer_distributed .footer_right{
+	float: right;
+}
+
+.footer_distributed .footer_right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: black;
+}
+
+/* The contact form */
+
+.footer_distributed form{
+	display: inline-block;
+}
+
+.footer_distributed form input,
+.footer_distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer_distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer_distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer_distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer_distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer_distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer_distributed form button{
+	border-radius: 3px;
+	background-color:  #C0C0C0;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+
+
+@media (max-width: 1000px) {
+
+	.footer_distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer_distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer_distributed form input,
+	.footer_distributed form textarea{
+		width: 250px;
+	}
+
+	.footer_distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer_distributed{
+		padding: 30px;
+	}
+
+	.footer_distributed .footer_left,
+	.footer_distributed .footer_right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer_distributed .footer_left{
+		margin-bottom: 40px;
+	}
+
+	.footer_distributed form{
+		margin-top: 30px;
+	}
+
+	.footer_distributed form{
+		display: block;
+	}
+
+	.footer_distributed form button{
+		float: none;
+	}
+}
